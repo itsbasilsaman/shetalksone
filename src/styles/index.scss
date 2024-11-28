@@ -339,7 +339,37 @@ $transition-duration: 0.9s;
 }
 
 
-// Carousel Section
+// AboutAppTwo
+
+.about-page.section-two {
+   .section-two.two {
+    .about-one.section-two,.about-two.section-two,.about-three.section-two {
+      object-fit: contain;
+     
+    }
+     .about-one.section-two {
+      top: 15%;
+      left: 8%;
+      width: 270px;
+      z-index: 19;
+      
+     }
+     .about-two.section-two {
+      top: 63%;
+      left: 12%;
+      width: 170px;
+      height: 240px;
+      z-index: 21;
+     }
+     .about-three.section-two {
+      top: 35%;
+      right: 19px;
+      width: 220px;
+      height: 260px;
+      z-index: 19;
+     }
+   }
+}
 
 
 
@@ -449,5 +479,32 @@ $transition-duration: 0.9s;
       }
     }
   }
+  .about-page.section-two {
+    .section-two.two {
+        
+      .about-one.section-two {
+       top: 5%;
+       left: 1%;
+       width: 170px;
+       
+      }
+      .about-two.section-two {
+       top: 63%;
+       left: 2%;
+       width: 130px;
+       z-index: 21;
+       display: none;
+      }
+      .about-three.section-two {
+       top: 20%;
+       right: 10px;
+       width: 120px;
+       z-index: 19;
+      }
+    }
+    .section-one.two {
+      
+    }
+ }
 }
 

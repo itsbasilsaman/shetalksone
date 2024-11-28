@@ -20,7 +20,7 @@ function App() {
       <AboutUs/>
       <Quotes/>
       <AboutAppTwo/>
-      <Download/>
+      {/* <Download/> */}
     </>
   )
 }

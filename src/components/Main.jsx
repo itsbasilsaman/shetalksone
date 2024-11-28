@@ -44,8 +44,8 @@ function Main() {
   return (
     <>
       <main className='w-full home-page h-screen sm:grid sm:grid-cols-2 px-[25px] sm:px-[0px]'>
-        <div className='left-section flex flex-col pt-[230px] sm:pt-[230px] sm:pl-[80px] pt-[140px] sm:justify-start sm:items-baseline items-center justify-center sm:gap-[0px] gap-[10px]'>
-          <h1 className='head sm:text-[39px] font-semibold sm:w-[590px] text-[26px] sm:text-left text-center sm:h-[140px] h-[80px]'>{displayedText}</h1>
+        <div className='left-section flex flex-col pt-[200px] sm:pt-[230px] sm:pl-[80px] pt-[140px] sm:justify-start sm:items-baseline items-center justify-center sm:gap-[0px] gap-[10px]'>
+          <h1 className='head sm:text-[39px] font-semibold   text-[26px] sm:text-left text-center sm:h-[130px] h-[80px]'>{displayedText}</h1>
           <p className='sm:text-[22px] sm:font-medium sm:text-left text-center text-[18px]'>
             A safe space for women to connect, share, and thrive together.
           </p>
@@ -53,7 +53,7 @@ function Main() {
             {/* {displayedText2} */}
             At the heart of Slack are channels: organised spaces for everyone and everything that you need for work. In channels, it’s easier to connect across departments, offices, time zones and even other companies.
           </p>
-          <div>
+          <div className='mt-[29px] sm:mt-[10px]'>
             <button className='px-[16px] py-[11px] cursor-pointer mr-[10px] rounded-[6px] app-store-button'>
               <FontAwesomeIcon icon={faApple} className='text-[20px] mr-[8px]' />App Store
             </button>
